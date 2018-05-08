@@ -28,6 +28,6 @@ class String
   end
 
   def count_sentences
-    self.count("." || "!" || "?")
+    self.count(".?!")
   end
 end
