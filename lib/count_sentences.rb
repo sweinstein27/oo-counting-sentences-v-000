@@ -30,7 +30,5 @@ class String
   def count_sentences
     self.split(/[\.|\?|\!]+/).count
 
-    #  {|w| w.size < 2}.size
-
   end
 end
